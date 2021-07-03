@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--This Dynamic Calculator is made by @prabhaspurohit77 If you need any help then you can contact on below social media platforms
+ Facebook page-https://www.facebook.com/Codewrites-107988928183322/
+ Instagram-https://www.instagram.com/prabhaspurohit77/
+ Linkedin-https://www.linkedin.com/in/prabhat-purohit-93ab801b3/ -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codewrites.com</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="prabhs.css">
+   <script src="codewrites.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+   <style> A{text-decoration: none;}</style>
+ 
+</head>
+
+<body onload="renderDate()">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Codewrites.Com</label>
+        <ul>
+          <li><a href="https://www.codewrites.com/">Home</a></li>
+          <li><a href="https://www.codewrites.com/">Responsive</a></li>
+          <li><a href="https://www.codewrites.com/">Feedback</a></li>
+          <li><a href="https://www.codewrites.com/">Contact us</a></li>
+          <li><a href="https://www.codewrites.com/">Feedback</a></li>
+        </ul>
+      </nav>
+    <div class="wrapper">
+        <div class="calendar">
+            <div class="month">
+                <div class="prev" onclick="moveDate('prev')">
+                    <span>&#10094;</span>
+                </div>
+                <h2 id="month"></h2>
+                <p id="date_str"></p>
+                <div class="next" onclick="moveDate('next')">
+                    <span>&#10095;</span>
+                </div>
+            </div>
+            <div class="weekdays">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+
+            </div>
+            <div class="days"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
